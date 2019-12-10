@@ -4,10 +4,10 @@ public class Singleton {
 
     // TODO 1 : fix singleton bad implementation
     public static Singleton getInstance() {
-    	if(instance == null) {
-    		instance = new Singleton();
-    	}
-        return new Singleton();
+		if (instance == null){
+			instance = new Singleton();
+		}
+    	return instance;
     }
 
     private Bank bank;
